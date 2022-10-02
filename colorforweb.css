@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primary{
+  margin: auto;  
+  width: 95%;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+.primary h1{
+  text-align: center;
+  margin-top: 2rem;
+}
+span.hexcode{
+    text-align: center;
+    padding: 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin:15px;
+}
+.generator{
+    background-color: grey;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+}
+.generator:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    color: grey;
+
+}
+.secondary{
+    margin: auto;  
+    width: 90%;
+    height: 60vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
